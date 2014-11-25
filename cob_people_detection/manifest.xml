@@ -11,7 +11,6 @@
 <depend package="std_msgs"/>
 <depend package="geometry_msgs"/>
 <depend package="std_srvs"/>
-<depend package="opencv2"/>
 <depend package="cv_bridge"/>
 <depend package="stereo_msgs"/>
 <depend package="sensor_msgs"/>
@@ -20,16 +19,14 @@
 <depend package="image_geometry" />
 <depend package="actionlib_msgs"/>
 <depend package="actionlib"/>
-<depend package="pcl"/>
 <depend package="pcl_ros"/>
 <depend package="nodelet"/>
-<depend package="openni_camera"/>
 <depend package="kdl_parser"/>
 <depend package="orocos_kdl"/>
 <depend package="cob_people_detection_msgs"/>
 <depend package="cob_vision_utils"/>
 <depend package="cob_image_flip"/>
-<depend package="openni_launch"/>
+<depend package="freenect_launch"/>
 <depend package="dynamic_reconfigure"/>
 <depend package="image_view"/>
 
