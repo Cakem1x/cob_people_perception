@@ -21,14 +21,12 @@ find_package(catkin REQUIRED COMPONENTS
   tf
   nodelet
   dynamic_reconfigure
-  pcl
   pcl_ros
   cv_bridge
   cob_image_flip
   cob_vision_utils
   cob_people_detection_msgs
   kdl_parser
-  orocos_kdl
 )
 
 find_package(Boost REQUIRED COMPONENTS signals system filesystem)
@@ -126,14 +124,12 @@ catkin_package(
     tf
     nodelet
     dynamic_reconfigure
-    pcl
     pcl_ros
     cv_bridge
     cob_image_flip
     cob_vision_utils
     cob_people_detection_msgs
     kdl_parser
-    orocos_kdl
   DEPENDS
     #PCL
     OpenCV
